@@ -691,3 +691,9 @@ footer {
         font-size: 14px;
     }
 }
+
+.address{
+    align-items: center;
+    text-align: center;
+    color: white;
+}
