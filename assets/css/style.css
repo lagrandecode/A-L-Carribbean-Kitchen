@@ -30,7 +30,7 @@ html {
 /* Header CSS */
 .header-img {
     height: 100vh;
-    background-image: url("../images/main_bg.jpg");
+    background-image: url("/assets/images/sec.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ html {
     text-decoration: none;
     font-size: 25px;
     white-space: nowrap;
-    color: #FF9D2E;
+    color: #f1f1f1;
     cursor: pointer;
 }
 .nav-ul {
@@ -121,6 +121,10 @@ html {
     display: none;
     cursor: pointer;
 }
+
+
+
+
 /* HumBurger Media Query */
 @media screen and (max-width: 800px) {
     .nav-ul {
@@ -348,6 +352,12 @@ section#promo-card {
     font-weight: bold;
     white-space: nowrap;
 }
+
+
+.btn-btn{
+    text-decoration: none;
+}
+
 .btn-order-now {
     background: none;
     padding: 10px 20px;
@@ -360,9 +370,11 @@ section#promo-card {
     overflow: hidden;
     border: 2px solid #FF9D2E;
     border-radius: 4px;
+    text-decoration: none;
 }
 .btn-order-now:hover {
     color: #FF9D2E;
+    text-decoration: none;
 }
 .btn-order-now::before {
     content: "";
