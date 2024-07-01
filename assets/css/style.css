@@ -356,6 +356,7 @@ section#promo-card {
 
 .btn-btn{
     text-decoration: none;
+    /* color: white; */
 }
 
 .btn-order-now {
@@ -468,6 +469,7 @@ section#promo-card {
     position: relative;
     overflow: hidden;
     border: 2px solid #FF9D2E;
+    text-decoration: none;
 }
 .btn:hover {
     color: #FF9D2E;
