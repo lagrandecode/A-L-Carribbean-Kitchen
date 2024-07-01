@@ -693,7 +693,13 @@ footer {
 }
 
 .address{
+    text-decoration: none;
     align-items: center;
     text-align: center;
+    color: white;
+}
+
+.address .add{
+    text-decoration: none;
     color: white;
 }

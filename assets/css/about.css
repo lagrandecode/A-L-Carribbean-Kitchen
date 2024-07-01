@@ -8,9 +8,13 @@
     box-sizing: border-box;
     font-family: Roboto, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+
 body {
     background-color: white;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -31,14 +35,16 @@ html {
 section.abs-section {
     margin: 0;
 }
+
 .abs-section {
     position: relative;
     height: 100vh;
-    background-image: url(..assets/mages/erk.jpeg");
+    background-image: url('../assets/images/erk.jpeg'); /* Corrected URL */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .abs-title {
     font-family: cursive, sans-serif;
     font-size: 48px;
@@ -51,14 +57,16 @@ section.abs-section {
     padding-right: 20%;
     margin-bottom: -10px;
 }
+
 .abs-image img {
     position: absolute;
     top: 12%;
     right: 0;
     width: 40%;
 }
+
 .abs-section p {
-    color: #F9F6F0;
+    color: black;
     margin-right: 45%;
     margin-left: 4%;
     font-family: Roboto, sans-serif;
@@ -66,10 +74,12 @@ section.abs-section {
     padding: 6px;
     margin-bottom: 32px;
 }
+
 .abs-section p span a {
     text-decoration: none;
     color: #FF9D2E;
 }
+
 @media screen and (max-width: 1000px) {
     .abs-section {
         height: auto;
@@ -79,27 +89,34 @@ section.abs-section {
         align-items: center;
         flex-direction: column;
     }
+
     .abs-title {
         text-align: center;
         padding: 8px 12px;
         font-size: 40px;
     }
-    .abs-image img{
+
+    .abs-image img {
         position: relative;
         width: 100%;
     }
+
     .abs-image, .abs-title {
         width: 64%;
         padding: 16px;
     }
+
     .abs-section p {
+        color: black;
         width: 100%;
         margin: 0;
         padding: 0;
     }
+
     .abs-section p:not(:last-child) {
         margin-bottom: 24px;
     }
+
     .abs-section p:last-child {
         padding-bottom: 40px;
     }
